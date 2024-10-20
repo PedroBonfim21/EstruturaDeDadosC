@@ -16,12 +16,12 @@ Requisitos:
 
 1. Início do sistema:
   O sistema deverá imprimir o nome e a matrícula de cada aluno do grupo.
--
+
 2. Processamento da Matrícula:
    - Capturando o último dígito da matrícula de cada aluno.
    - Esses dígitos serão somados e o sistema realizará a operação de módulo 3 sobre o valor total.
    - O resultado dessa operação determinará o algoritmo de ordenação e de varredura a ser utilizado.
--
+
 4. Geração e Ordenação de Vetor:
   O sistema deverá gerar aleatoriamente um vetor com 100 números inteiros não repetidos entre 1 e 1000.
   Com base no resultado da operação de módulo 3:
@@ -32,11 +32,11 @@ Requisitos:
     - O vetor ordenado.
     - A quantidade de comparações realizadas durante a ordenação.
     - O tempo gasto na execução da ordenação.
--
+
 5. Construção e Impressão de Árvore Binária:
   Utilizando os 100 números gerados, o sistema deverá construir uma árvore binária de busca utilizando struct.
   A árvore deverá ser percorrida e impressa em uma das formas de varredura, com base no resultado do módulo 3:
   - Se o resultado for 0: Percorrer a árvore em pré-ordem.
   - Se o resultado for 1: Percorrer a árvore em ordem.
   - Se o resultado for 2: Percorrer a árvore em pós-ordem.
--
+
